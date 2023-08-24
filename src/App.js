@@ -12,13 +12,13 @@ import Footer from './componentes/Footer';
 
 function App() {
 
-  const [mostrarFormulario, actualizarMostrar] = useState (true)
+  const [mostrarFormulario, actualizarMostrar] = useState (false)
   const [colaboradores, actualizarColaboradores] = useState ([{
        
       id: uuid(),
       equipo: "Front End",
-      foto: "https://github.com/harlandlohora.png",
-      nombre: "Harland Lohora",
+      foto: "https://github.com/AlejandroAlcantara.png",
+      nombre: "Alejandro Alcantara",
       puesto: "Instructor",
       fav: true
     },
